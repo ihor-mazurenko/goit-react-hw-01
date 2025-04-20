@@ -1,0 +1,35 @@
+.transactionHistory {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+.titleRow {
+    background-color: #4e4e4e;
+    color: #fff;
+}
+
+.titleCell {
+    padding: 10px 0;
+    width: calc(100% / 3);
+    text-align: center;
+    border: 2px solid #000000;
+}
+
+ .row:nth-child(even) {
+     background-color: #cdcdcd;
+ }
+
+ .row:nth-child(odd) {
+     background-color: #fff;
+ }
+
+.cell {
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid #000000;
+    text-transform: capitalize;
+}
